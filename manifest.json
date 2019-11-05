@@ -2,6 +2,7 @@
   "name": "SiteGate",
   "version": "1.0",
   "description": "Makes it harder to enter websites that you can't stay away from.",
+  "permissions": ["activeTab", "tabs", "webNavigation"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -9,6 +10,5 @@
   "browser_action": {
     "default_popup": "popup.html",
   },
-  "permissions": [],
   "manifest_version": 2
 }
