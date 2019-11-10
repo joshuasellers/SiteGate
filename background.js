@@ -1,6 +1,6 @@
 'use strict';
 
-let blacklist = ["youtube.com","facebook.com"];
+let blacklist = ["youtube.com","facebook.com","espn.com"];
 
 chrome.tabs.onUpdated.addListener(
     function(tabId, changeInfo, tab)
