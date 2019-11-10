@@ -1,0 +1,38 @@
+.body{
+    background-color: #000000;
+    /*background-image: linear-gradient(147deg, #000000 0%, #434343 74%);*/
+}
+
+/*
+http://csstxt.com/
+*/
+.url{
+    white-space:nowrap;
+    /*text-shadow:1px 1px 1px rgba(255,255,255,1);*/
+    font-weight:bold;text-transform:uppercase;
+    color:#FAFAFA;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:15px;
+    text-align:left;
+    font-family:courier new, courier, monospace;
+    line-height:1;
+}
+
+/*
+https://freefrontend.com/css-input-text/
+*/
+.inp_txt{
+    display: block;
+    margin: 0;
+    padding: var(--inputPaddingV) var(--inputPaddingH);
+    color: inherit;
+    width: 50%;
+    font-family: inherit;
+    font-size: var(--inputFontSize);
+    font-weight: inherit;
+    line-height: var(--inputLineHeight);
+    border: none;
+    border-radius: 0.4rem;
+    transition: box-shadow var(--transitionDuration);
+}
