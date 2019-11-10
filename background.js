@@ -5,8 +5,12 @@ let blacklist = ["youtube.com","facebook.com"];
 chrome.tabs.onUpdated.addListener(
     function(tabId, changeInfo, tab)
     {
-        if(changeInfo.url && changeInfo.url.includes('youtube.com')){
-            console.log("BLACKLIST");
+
+        if(changeInfo.url ){
+            const blacklisted = blacklist.some(el => changeInfo.url.includes(el));
+            if (blacklisted) {
+                console.log("BLACKLIST");
+            }
         }
     });
 
