@@ -1,6 +1,5 @@
 .body{
     background-color: #000000;
-    /*background-image: linear-gradient(147deg, #000000 0%, #434343 74%);*/
 }
 
 /*
@@ -8,7 +7,6 @@ http://csstxt.com/
 */
 .url{
     white-space:nowrap;
-    /*text-shadow:1px 1px 1px rgba(255,255,255,1);*/
     font-weight:bold;text-transform:uppercase;
     color:#FAFAFA;
     letter-spacing:1pt;
@@ -18,6 +16,8 @@ http://csstxt.com/
     font-family:courier new, courier, monospace;
     line-height:1;
     margin: 0 auto;
+    padding-bottom: 10pt;
+    padding-top: 10pt;
 }
 
 /*
@@ -25,10 +25,9 @@ https://freefrontend.com/css-input-text/
 */
 .inp_txt{
     display: block;
-    margin: 0 auto;
     padding: var(--inputPaddingV) var(--inputPaddingH);
     color: inherit;
-    width: 50%;
+    width: 90%;
     font-family: inherit;
     font-size: var(--inputFontSize);
     font-weight: inherit;
@@ -39,7 +38,7 @@ https://freefrontend.com/css-input-text/
 }
 
 .site{
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
+    margin-bottom: 10pt;
+    margin-top: 10pt;
+    width: 90%;
 }
