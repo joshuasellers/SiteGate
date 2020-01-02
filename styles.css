@@ -39,5 +39,7 @@ https://freefrontend.com/css-input-text/
 }
 
 .site{
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
 }
