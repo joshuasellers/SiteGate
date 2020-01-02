@@ -37,3 +37,7 @@ https://freefrontend.com/css-input-text/
     border-radius: 0.4rem;
     transition: box-shadow var(--transitionDuration);
 }
+
+.site{
+    margin: 0 auto;
+}
