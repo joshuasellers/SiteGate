@@ -4,7 +4,7 @@
   "description": "Makes it harder to enter websites that you can't stay away from.",
   "permissions": ["tabs"],
   "background": {
-    "scripts": ["background.js", "warning.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {
