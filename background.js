@@ -10,6 +10,7 @@ chrome.tabs.onUpdated.addListener(
             const blacklisted = blacklist.some(el => changeInfo.url.includes(el));
             if (blacklisted) {
                 console.log("BLACKLIST");
+
             }
         }
     });
