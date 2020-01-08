@@ -9,8 +9,7 @@ chrome.tabs.onUpdated.addListener(
         if(changeInfo.url ){
             const blacklisted = blacklist.some(el => changeInfo.url.includes(el));
             if (blacklisted) {
-                console.log("BLACKLIST");
-                alert("THIS IS BLACKLISTED")
+                alert("BY CLICKING OK YOU AGREE TO WASTE TIME ON THIS SITE")
 
             }
         }
