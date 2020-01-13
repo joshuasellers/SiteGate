@@ -8,8 +8,10 @@ chrome.tabs.onUpdated.addListener(
         if(changeInfo.url ){
             const blacklisted = blacklist.some(el => changeInfo.url.includes(el));
             if (blacklisted) {
-                confirm("BY CLICKING OK YOU AGREE TO WASTE TIME ON THIS SITE")
-
+                const r =confirm("BY CLICKING OK YOU AGREE TO WASTE TIME ON THIS SITE");
+                if (r !== true){
+                    chrome.tabs.remove(tabId);
+                }
             }
         }
     });
